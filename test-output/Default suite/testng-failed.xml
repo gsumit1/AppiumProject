@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.qa.tests.LoginTests">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="invalidUserName"/>
+          <include name="beforeClass"/>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+          <include name="invalidPassword"/>
+          <include name="successfulLogin"/>
+          <include name="afterClass"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.tests.LoginTests -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
