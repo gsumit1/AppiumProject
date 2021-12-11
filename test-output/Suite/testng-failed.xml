@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Pixel_2(failed)">
+    <parameter name="platformName" value="Android"/>
+    <parameter name="udid" value="emulator-5554"/>
+    <parameter name="deviceName" value="Pixel_4"/>
     <classes>
       <class name="com.qa.tests.LoginTests">
         <methods>
@@ -9,7 +12,6 @@
           <include name="invalidUserName"/>
           <include name="beforeClass"/>
           <include name="setup"/>
-          <include name="afterSuite"/>
           <include name="afterMethod"/>
           <include name="invalidPassword"/>
           <include name="successfulLogin"/>
@@ -18,5 +20,5 @@
         </methods>
       </class> <!-- com.qa.tests.LoginTests -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Pixel_2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

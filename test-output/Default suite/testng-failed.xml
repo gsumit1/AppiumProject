@@ -9,6 +9,7 @@
           <include name="invalidUserName"/>
           <include name="beforeClass"/>
           <include name="setup"/>
+          <include name="afterSuite"/>
           <include name="afterMethod"/>
           <include name="invalidPassword"/>
           <include name="successfulLogin"/>

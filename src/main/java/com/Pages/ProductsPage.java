@@ -8,7 +8,7 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 public class ProductsPage extends BaseTest{
 	TestUtils utils = new TestUtils();
 	
-	@AndroidFindBy (xpath = "//android.widget.ScrollView[@content-desc=\"test-PRODUCTS\"]/preceding-sibling::android.view.ViewGroup/android.widget.TextView") 
+	@AndroidFindBy (xpath = "//android.view.ViewGroup[@content-desc=\"test-Cart drop zone\"]/android.view.ViewGroup/android.widget.TextView") 
 	private MobileElement productTitleTxt;
 	
 	@AndroidFindBy (xpath = "(//android.widget.TextView[@content-desc=\"test-Item title\"])[1]") 
